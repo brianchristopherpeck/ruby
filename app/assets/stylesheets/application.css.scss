@@ -12,20 +12,19 @@
  *= require_tree .
  */
 /* START_HIGHLIGHT */
-#banner {
-  img {
-   	float: left;
-   	border:5px solid yellow;
-  }
-
+.banner {
   background: #9c9;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
   color: #282;
   text-align: center;
+  overflow: auto;
 }
 
+.banner img {
+   	float: left;
+}
 
 #notice {
   color: #000 !important;
